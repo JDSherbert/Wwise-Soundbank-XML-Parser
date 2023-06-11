@@ -1,6 +1,6 @@
 ![image](https://github.com/JDSherbert/Wwise-Soundbank-XML-Parser/assets/43964243/213bf760-0148-4fe6-a6d7-8c400a8fb3cb)
 
-# Wwise-Soundbank-XML-Parser
+# Wwise Soundbank XML Parser
 
 <!-- Header Start -->
   <a href = "https://www.audiokinetic.com/en/"><img align="left" height="40" img width="40" src="https://simpleicons.org/wwise/white"> </a>
