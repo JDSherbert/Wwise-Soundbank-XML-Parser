@@ -42,22 +42,17 @@ Wwise Soundbank XML files serve as a bridge between the audio assets and the gam
 It's important to note that the specific structure and elements within the XML file may vary depending on the Wwise version, project settings, and the complexity of the audio content.
 
  -----------------------------------------------------------------------
-SoundBankInfo: This element provides general information about the soundbank, such as its name, short name, and version. It may also include information about the Wwise project and its author.
 
-Sound Objects: Sound objects represent individual audio assets within the soundbank. They can include various types of audio, such as waveform files, MIDI files, or generated sounds. Each sound object is identified by a unique ID and can have properties such as its name, duration, and source file path.
-
-Events: Events define the triggering mechanisms for playing sounds in response to specific events or game actions. They specify which sound objects or other events to play, as well as the playback settings like volume, pitch, and spatial positioning. Events can be organized in a hierarchical structure to create complex audio behaviors.
-
-Actions: Actions define specific actions or behaviors associated with an event, such as playing a sound, stopping a sound, or modifying properties of sound objects. They specify the targets (sound objects or events) and the action to be performed.
-
-Switches and States: Switches and states are used to control the variations of sounds played within an event. Switches allow for selecting different sound variations based on a defined switch group, while states represent a specific state within a state group, enabling different behaviors or sounds based on the current state.
-
-RTPC (Real-Time Parameter Control): RTPC allows for real-time control of sound properties during gameplay. It defines parameters that can be adjusted dynamically, such as volume, pitch, or filter settings. These parameters can be modified through game events or other game systems.
-
-Platform-Specific Information: Wwise Soundbank XML files include platform-specific data and settings. This allows for platform-specific optimizations, such as audio compression formats, sample rates, or device-specific settings.
-
-Auxiliary Sends and Buses: These elements define the routing and mixing of sounds within Wwise. Auxiliary sends specify the amount of audio sent from one sound object to an auxiliary bus, allowing for effects processing or global control. Buses represent logical groups of sound objects and provide control over mixing, routing, and effects for the associated sounds.
-
-External Sources: External sources represent audio files or streams that are not directly managed by Wwise but are referenced within the soundbank. They can include references to external streaming URLs or files that are managed by the game engine or other systems.
+| Element                             | Description                                                                                                       |
+| ----------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| SoundBankInfo                       | Provides general information about the soundbank, such as its name, short name, and version.                      |
+| Sound Objects                       | Represents individual audio assets within the soundbank, including waveform files, MIDI files, etc.               |
+| Events                              | Defines triggering mechanisms for playing sounds in response to specific events or game actions.                  |
+| Actions                             | Defines specific actions or behaviors associated with an event, such as playing a sound or modifying properties.  |
+| Switches and States                 | Control variations of sounds played within an event based on defined switch groups or state groups.               |
+| RTPC (Real-Time Parameter Control)  | Allows for real-time control of sound properties during gameplay through dynamic parameter adjustment.            |
+| Platform-Specific Information       | Includes platform-specific data and settings for platform optimizations and compatibility.                        |
+| Auxiliary Sends and Buses           | Define the routing and mixing of sounds, including effects processing and global control.                         |
+| External Sources                    | Represents audio files or streams not directly managed by Wwise but referenced within the soundbank.              |
 
 Wwise Soundbank XML files are structured to capture and describe the audio assets, events, and interactive behaviors within a Wwise project. The elements and structure enable seamless integration of audio content into the game engine or interactive application, providing control and flexibility for creating immersive and interactive audio experiences.
