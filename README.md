@@ -17,7 +17,7 @@
   -----------------------------------------------------------------------
   
   <a href="https://www.audiokinetic.com/en/"> 
-  <img align="top" alt="Extension Tool For Wwise" src="https://img.shields.io/badge/Wwise-00549F?style=for-the-badge&logo=wwise&logoColor=white&color=black&labelColor=00549F"> </a>
+  <img align="top" alt="Extension Tool For Wwise" src="https://img.shields.io/badge/Extension%20Tool%20For%20Wwise-00549F?style=for-the-badge&logo=wwise&logoColor=white&color=black&labelColor=00549F"> </a>
   
   -----------------------------------------------------------------------
 Repository for the Global Gamejam 2021 project Broken Wings.
