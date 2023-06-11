@@ -35,6 +35,7 @@ Wwise Soundbank XML files serve as a bridge between the audio assets and the gam
 It's important to note that the specific structure and elements within the XML file may vary depending on the Wwise version, project settings, and the complexity of the audio content.
 
  -----------------------------------------------------------------------
+## Wwise Soundbank XML Nodes
 
 | Element                             | Description                                                                                                       |
 | ----------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
