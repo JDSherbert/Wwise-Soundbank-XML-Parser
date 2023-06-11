@@ -1,4 +1,4 @@
-![image](https://github.com/JDSherbert/Wwise-Soundbank-XML-Parser/assets/43964243/777ade05-154f-4a9d-a37c-4dff1bd225eb)
+![image](https://github.com/JDSherbert/Wwise-Soundbank-XML-Parser/assets/43964243/213bf760-0148-4fe6-a6d7-8c400a8fb3cb)
 
 
 # Wwise-Soundbank-XML-Parser
