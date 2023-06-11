@@ -4,7 +4,7 @@
 # Wwise-Soundbank-XML-Parser
 
 <!-- Header Start -->
-  <a href = "https://docs.unity.com/"><img align="left" height="40" img width="40" src="https://cdn.simpleicons.org/unity/white"></a>
+  <a href = "https://docs.unity.com/"><img align="left" height="40" img width="40" src="https://cdn.simpleicons.org/unity/white"> </a>
   <a href = "https://docs.unrealengine.com/5.1/en-US/"> <img height="40" img width="40" src="https://cdn.simpleicons.org/unrealengine/white"> </a> 
   <a href = "https://learn.microsoft.com/en-us/cpp/c-language"> <img height="40" img width="40" src="https://cdn.simpleicons.org/c"> </a>
   <a href = "https://learn.microsoft.com/en-us/cpp/cpp-language"> <img height="40" img width="40" src="https://cdn.simpleicons.org/c++"> </a>
