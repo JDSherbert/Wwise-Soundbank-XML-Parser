@@ -3,9 +3,9 @@
 #include "WwiseSoundbankParserLibrary.h"
 #include "ThirdParty/tinyxml2/tinyxml2.h"
 
-void UWwiseSoundbankParserLibrary::GetEventIDAndName(const FString& SoundbankXmlPath, TMap<FString, FString>& EventMap)
+TMap<FString, FString> UWwiseSoundbankParserLibrary::GetEventIDAndName(const FString& SoundbankXmlPath)
 {
-    EventMap.Empty();
+    TMap<FString, FString> EventMap;
 
     std::string XmlPathString = TCHAR_TO_UTF8(*SoundbankXmlPath);
     tinyxml2::XMLDocument doc;
@@ -26,11 +26,13 @@ void UWwiseSoundbankParserLibrary::GetEventIDAndName(const FString& SoundbankXml
 
         eventElement = eventElement->NextSiblingElement("Event");
     }
+    
+    return EventMap;
 }
 
-void UWwiseSoundbankParserLibrary::GetRTPCIDAndName(const FString& SoundbankXmlPath, TMap<FString, FString>& RTPCMap)
+TMap<FString, FString> UWwiseSoundbankParserLibrary::GetRTPCIDAndName(const FString& SoundbankXmlPath)
 {
-    RTPCMap.Empty();
+    TMap<FString, FString> RTPCMap;
 
     std::string XmlPathString = TCHAR_TO_UTF8(*SoundbankXmlPath);
     tinyxml2::XMLDocument doc;
@@ -51,11 +53,13 @@ void UWwiseSoundbankParserLibrary::GetRTPCIDAndName(const FString& SoundbankXmlP
 
         rtpcElement = rtpcElement->NextSiblingElement("RealTimeParameter");
     }
+    
+    return RTPCMap;
 }
 
-void UWwiseSoundbankParserLibrary::GetSwitchIDAndName(const FString& SoundbankXmlPath, TMap<FString, FString>& SwitchMap)
+TMap<FString, FString> UWwiseSoundbankParserLibrary::GetSwitchIDAndName(const FString& SoundbankXmlPath)
 {
-    SwitchMap.Empty();
+    TMap<FString, FString> SwitchMap;
 
     std::string XmlPathString = TCHAR_TO_UTF8(*SoundbankXmlPath);
     tinyxml2::XMLDocument doc;
@@ -76,11 +80,13 @@ void UWwiseSoundbankParserLibrary::GetSwitchIDAndName(const FString& SoundbankXm
 
         switchElement = switchElement->NextSiblingElement("Switch");
     }
+    
+    return SwitchMap;
 }
 
-void UWwiseSoundbankParserLibrary::GetStateIDAndName(const FString& SoundbankXmlPath, TMap<FString, FString>& StateMap)
+TMap<FString, FString> UWwiseSoundbankParserLibrary::GetStateIDAndName(const FString& SoundbankXmlPath)
 {
-    StateMap.Empty();
+    TMap<FString, FString> StateMap;
 
     std::string XmlPathString = TCHAR_TO_UTF8(*SoundbankXmlPath);
     tinyxml2::XMLDocument doc;
@@ -101,11 +107,13 @@ void UWwiseSoundbankParserLibrary::GetStateIDAndName(const FString& SoundbankXml
 
         stateElement = stateElement->NextSiblingElement("State");
     }
+    
+    return StateMap;
 }
 
-void UWwiseSoundbankParserLibrary::GetAuxBusIDAndName(const FString& SoundbankXmlPath, TMap<FString, FString>& AuxBusMap)
+TMap<FString, FString> UWwiseSoundbankParserLibrary::GetAuxBusIDAndName(const FString& SoundbankXmlPath, )
 {
-    AuxBusMap.Empty();
+    TMap<FString, FString> AuxBusMap;
 
     std::string XmlPathString = TCHAR_TO_UTF8(*SoundbankXmlPath);
     tinyxml2::XMLDocument doc;
@@ -126,4 +134,6 @@ void UWwiseSoundbankParserLibrary::GetAuxBusIDAndName(const FString& SoundbankXm
 
         auxBusElement = auxBusElement->NextSiblingElement("AuxBus");
     }
+    
+    return AuxBusMap;
 }
