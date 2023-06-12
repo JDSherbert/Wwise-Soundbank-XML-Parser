@@ -13,17 +13,17 @@ class SHERBERT_API UWwiseSoundbankParserLibrary : public UBlueprintFunctionLibra
 
 public:
     UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Sherbert|Wwise Soundbank Parser")
-    static void GetEventIDAndName(const FString& SoundbankXmlPath, TMap<FString, FString>& EventMap);
+    static TMap<FString, FString> GetEventIDAndName(const FString& SoundbankXmlPath, TMap<FString, FString>& EventMap);
 
     UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Sherbert|Wwise Soundbank Parser")
-    static void GetRTPCIDAndName(const FString& SoundbankXmlPath, TMap<FString, FString>& RTPCMap);
+    static TMap<FString, FString> GetRTPCIDAndName(const FString& SoundbankXmlPath, TMap<FString, FString>& RTPCMap);
 
     UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Sherbert|Wwise Soundbank Parser")
-    static void GetSwitchIDAndName(const FString& SoundbankXmlPath, TMap<FString, FString>& SwitchMap);
+    static TMap<FString, FString> GetSwitchIDAndName(const FString& SoundbankXmlPath, TMap<FString, FString>& SwitchMap);
 
     UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Sherbert|Wwise Soundbank Parser")
-    static void GetStateIDAndName(const FString& SoundbankXmlPath, TMap<FString, FString>& StateMap);
+    static TMap<FString, FString> GetStateIDAndName(const FString& SoundbankXmlPath, TMap<FString, FString>& StateMap);
 
     UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Sherbert|Wwise Soundbank Parser")
-    static void GetAuxBusIDAndName(const FString& SoundbankXmlPath, TMap<FString, FString>& AuxBusMap);
+    static TMap<FString, FString> GetAuxBusIDAndName(const FString& SoundbankXmlPath, TMap<FString, FString>& AuxBusMap);
 };
