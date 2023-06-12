@@ -21,11 +21,11 @@
 This repository contains a parser for Wwise soundbank XML files implemented in multiple programming languages. The parser extracts various data from the XML file, such as event IDs and names, RTPC IDs and names, switch IDs and names, state IDs and names, and auxbus IDs and names.
 
 Features:
-- Retrieves event IDs and names from the Wwise soundbank XML file.
-- Retrieves RTPC IDs and names from the Wwise soundbank XML file.
-- Retrieves switch IDs and names from the Wwise soundbank XML file.
-- Retrieves state IDs and names from the Wwise soundbank XML file.
-- Retrieves auxbus IDs and names from the Wwise soundbank XML file.
+- Retrieves event IDs and names.
+- Retrieves RTPC IDs and names.
+- Retrieves switch IDs and names.
+- Retrieves state IDs and names.
+- Retrieves auxbus IDs and names.
 
 Usage:
 1. Select the desired programming language folder.
