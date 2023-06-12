@@ -1,3 +1,5 @@
+// ©2023 JDSherbert
+
 function parseWwiseSoundbankXML(soundbankXml) 
 {
   // Parse the XML
