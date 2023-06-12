@@ -9,7 +9,7 @@
   <a href = "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/xmldoc/recommended-tags"> <img align="left" img align="left" height="40" img width="40" src="https://cdn.simpleicons.org/xaml"> </a>
   <a href = "https://learn.microsoft.com/en-us/cpp/cpp-language"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/c++"> </a>
   <a href = "https://learn.microsoft.com/en-us/dotnet/csharp"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/csharp"> </a>
-  <a href = "https://www.java.com/en/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/java"> </a>
+  <a href = "https://www.java.com/en/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/oracle"> </a>
   <a href = "https://www.python.org/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/python"> </a>
   <img align="right" alt="stars badge" src="https://img.shields.io/github/stars/jdsherbert/Wwise-Soundbank-XML-Parser"/>
   <img align="right" alt="forks badge" src="https://img.shields.io/github/forks/jdsherbert/Wwise-Soundbank-XML-Parser=Fork"/>
