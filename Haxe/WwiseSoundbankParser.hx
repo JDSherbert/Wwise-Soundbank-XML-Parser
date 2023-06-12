@@ -1,3 +1,5 @@
+// ©2023 JDSherbert
+
 import haxe.xml.Parser;
 import haxe.xml.Xml;
 
