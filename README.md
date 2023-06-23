@@ -14,7 +14,7 @@
   <a href = "https://www.javascript.com/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/javascript"> </a>
   <a href = "https://www.python.org/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/python"> </a>
   <img align="right" alt="stars badge" src="https://img.shields.io/github/stars/jdsherbert/Wwise-Soundbank-XML-Parser"/>
-  <img align="right" alt="forks badge" src="https://img.shields.io/github/forks/jdsherbert/Wwise-Soundbank-XML-Parser=Fork"/>
+  <img align="right" alt="forks badge" src="https://img.shields.io/github/forks/jdsherbert/Wwise-Soundbank-XML-Parser?label=Fork"/>
   <br></br>
   -----------------------------------------------------------------------
   
