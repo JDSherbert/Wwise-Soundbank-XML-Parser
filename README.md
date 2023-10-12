@@ -15,6 +15,7 @@
   <a href = "https://www.python.org/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/python"> </a>
   <img align="right" alt="stars badge" src="https://img.shields.io/github/stars/jdsherbert/Wwise-Soundbank-XML-Parser"/>
   <img align="right" alt="forks badge" src="https://img.shields.io/github/forks/jdsherbert/Wwise-Soundbank-XML-Parser?label=Fork"/>
+  <img align="right" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FJDSherbert%2FWwise-Soundbank-XML-Parser%2Fhit-counter%2FREADME&count_bg=%2379C83D&title_bg=%23555555&icon=awesomelists.svg&color=black&labelColor=0E1128&title=hits&style=for-the-badge">
   <br></br>
   -----------------------------------------------------------------------
   
