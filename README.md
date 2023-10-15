@@ -23,6 +23,9 @@
   
   <a href="https://www.audiokinetic.com/en/"> 
   <img align="top" alt="Extension Tool For Wwise" src="https://img.shields.io/badge/Extension%20Tool%20For%20Wwise-00549F?style=for-the-badge&logo=wwise&logoColor=white&color=black&labelColor=00549F"> </a>
+
+  <a href="https://choosealicense.com/licenses/mit/"> 
+  <img align="right" alt="License" src="https://img.shields.io/badge/License%20:%20MIT-black?style=for-the-badge&logo=mit&logoColor=white&color=black&labelColor=black"> </a>
   
   -----------------------------------------------------------------------
 This repository contains a parser for Wwise soundbank XML files implemented in multiple programming languages. The parser extracts various data from the XML file, such as event IDs and names, RTPC IDs and names, switch IDs and names, state IDs and names, and auxbus IDs and names.
